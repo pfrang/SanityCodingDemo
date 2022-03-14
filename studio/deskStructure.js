@@ -47,6 +47,7 @@ export default () =>
         .icon(MdAccountCircle)
         .schemaType("author")
         .child(S.documentTypeList("author").title("Authors")),
+
       S.listItem()
         .title("Posts by author")
         .icon(MdGroup)

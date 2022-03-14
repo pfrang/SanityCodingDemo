@@ -8,6 +8,9 @@
     "name": "SanityCodingDemo"
   },
   "plugins": [
+    "@sanity/dashboard",
+    "media",
+    "asset-source-unsplash",
     "leaflet-input",
     "@sanity/base",
     "@sanity/components",
@@ -18,7 +21,8 @@
     "seo-pane",
     "dashboard-widget-structure-menu",
     "dashboard-widget-document-list",
-    "iframe-pane"
+    "iframe-pane",
+    "hotdog-stand"
   ],
   "env": {
     "development": {
@@ -39,6 +43,10 @@
     {
       "implements": "part:@sanity/production-preview/resolve-production-url",
       "path": "./resolveProductionUrl.js"
+    },
+    {
+      "implements": "part:@sanity/dashboard/config",
+      "path": "./dashboardConfig.js"
     }
   ]
 }

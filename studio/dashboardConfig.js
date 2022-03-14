@@ -1,6 +1,6 @@
 export default {
   widgets: [
-   
+
     {name: 'structure-menu'},
     {name: 'project-users', layout: {height: 'auto', widht:'medium'}},
     {
