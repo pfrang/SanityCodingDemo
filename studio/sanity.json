@@ -1,13 +1,14 @@
 {
   "root": true,
+  "api": {
+    "projectId": "h67pm8vk",
+    "dataset": "production"
+  },
   "project": {
     "name": "SanityCodingDemo"
   },
-  "api": {
-    "projectId": "ci94q5up",
-    "dataset": "production"
-  },
   "plugins": [
+    "leaflet-input",
     "@sanity/base",
     "@sanity/components",
     "@sanity/default-layout",
